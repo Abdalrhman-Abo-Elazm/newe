@@ -60,9 +60,9 @@ app.get('/client-info', (req, res) => {
 });
 
 // تقديم الصفحة الرئيسية
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'index.html'));
+// });
 
 // تشغيل السيرفر
 app.listen(PORT, () => {
